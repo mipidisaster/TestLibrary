@@ -2,7 +2,7 @@
  * @file        GPIO.h
  * @author      Thomas
  * @version     V0.1
- * @date        22 June 2018
+ * @date        22 Jun 2018
  * @brief       Header file for the Generic GPIO structure handler
  **************************************************************************************************
  @ attention
@@ -44,12 +44,14 @@
 
 #endif
 
-// Types used within this class
+// Defines specific within this structure handler
+// None
+
+// Types used within this structure handler
 typedef enum GPIO_VALUE { GPIO_LOW = 0, GPIO_HIGH = ~GPIO_LOW } _GPIOValue;
 typedef enum GPIO_DIREC { GPIO_OUT = 0, GPIO_IN = ~GPIO_OUT} _GPIODirec;
 
-// My structure used to control the GPIO hardware
-
+// Structure used to control the GPIO hardware
 typedef struct GPIO {
     // Structure entries which are generic to all embedded devices
     uint32_t        pinnumber;

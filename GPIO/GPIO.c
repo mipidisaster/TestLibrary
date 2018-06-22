@@ -1,8 +1,8 @@
 /**************************************************************************************************
- * @file        GPIO.cpp
+ * @file        GPIO.c
  * @author      Thomas
  * @version     V0.1
- * @date        22 June 2018
+ * @date        22 Jun 2018
  * @brief       Source file for the Generic GPIO structure handler
  **************************************************************************************************
  @ attention

@@ -41,6 +41,7 @@
 
 #include <stdint.h>         // Include standard integer entries
 #include <malloc.h>
+
 #if   defined(zz__MiSTM32Fx__zz)        // If the target device is an STM32Fxx from cubeMX then
 //==================================================================================================
 // None
@@ -55,15 +56,15 @@
 
 #endif
 
-// Defines specific within this class
+// Defines specific within this structure handler
+// None
+
+// Types used within this structure handler
 typedef enum {
     ByteQueue_Empty = 0,        // Indicates that the buffer is empty of any new data
     ByteQueue_NewData = 1,      // Indicates that the buffer contains new data to be read
     ByteQueue_FULL = 2          // Indicates that the buffer is full, and no new data can be added
 } _BytQueState;
-
-// Types used within this class
-// None
 
 typedef struct BytQue {
     // Structure entries which are generic to all embedded devices
