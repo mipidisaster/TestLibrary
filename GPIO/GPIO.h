@@ -2,7 +2,7 @@
  * @file        GPIO.h
  * @author      Thomas
  * @version     V0.1
- * @date        19 Apr 2018
+ * @date        22 June 2018
  * @brief       Header file for the Generic GPIO structure handler
  **************************************************************************************************
  @ attention
@@ -24,8 +24,6 @@
  *      To change the state of the pin either the "GPIOtoggle" or "GPIOset(GPIO_HIGH/GPIO_LOW)" for
  *      outputs.
  *      To read the state of the pin use "GPIOget".
- *
- *      There is no other functionality within this class
  *************************************************************************************************/
 
 #ifndef GPIO_H_
