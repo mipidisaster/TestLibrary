@@ -1,0 +1,3 @@
+[submodule "OtherVersion"]
+	path = OtherVersion
+	url = https://github.com/mipidisaster/hello-world.git
