@@ -1,3 +1,6 @@
 [submodule "OtherVersion"]
 	path = OtherVersion
 	url = https://github.com/mipidisaster/hello-world.git
+[submodule "OtherVersionMk2"]
+	path = OtherVersionMk2
+	url = https://github.com/mipidisaster/hello-world.git
